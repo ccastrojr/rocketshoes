@@ -2,7 +2,7 @@
 
 ## Developed with ReactJS and React Native. I'm using json-server (read more on [JSON-Server](https://github.com/typicode/json-server) to simulate an RESTFul API.
 
-** Used Technologies **
+**Used Technologies**
 - React
   - React Router DOM
 - React Native
@@ -44,4 +44,5 @@
   react-native start
   ```
   
-###### Make sure that json-server is running at 3333 port.
+  
+**Make sure that json-server is running at 3333 port.**
