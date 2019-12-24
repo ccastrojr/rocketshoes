@@ -19,6 +19,7 @@
   - Eslint
   - Prettier
   
+  
 *Avaliable scripts*
 
 ## Web
