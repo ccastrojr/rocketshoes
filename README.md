@@ -9,7 +9,6 @@
   - React Navigation
 - Redux
 - Redux Saga
-- Reactotron
 - Axios
 - Prop-Types
 - Styled Components
