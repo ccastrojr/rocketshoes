@@ -44,5 +44,6 @@
   react-native start
   ```
   
+# Important
   
 **Make sure that json-server is running at 3333 port.**
