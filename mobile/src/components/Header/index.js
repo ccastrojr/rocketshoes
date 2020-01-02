@@ -1,5 +1,4 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React, { useSelector } from 'react';
 import PropTypes from 'prop-types';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -13,11 +12,12 @@ import {
   NavHome,
 } from './styles';
 
-function Header({ navigation, cartSize }) {
+export default function Header({ navigation }) {
   Header.propTypes = {
     navigation: PropTypes.shape().isRequired,
-    cartSize: PropTypes.number.isRequired,
   };
+
+  const cartSize = useSelector(state => state.cart.length);
 
   return (
     <Wrapper>
@@ -34,10 +34,3 @@ function Header({ navigation, cartSize }) {
     </Wrapper>
   );
 }
-
-export default connect(
-  state => ({
-    cartSize: state.cart.length,
-  }),
-  null
-)(Header);
